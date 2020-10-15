@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin : 0;
+	box-sizing: border-box;
+	
+}
+.test, .test2 {
+width: 100px;
+height: 100px;
+
+}
+.test1{
+	background: red;
+	margin: 20px;
+}
+
+.test1{
+	background: blue;
+	margin: 30px;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+main {
+	width: 70%;
+	height: 50px;
+	margin: auto;
+	background-color: #fff;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+
+
+.menu {
+    width: 200%;
+	height: 50px;
+	margin: 20px;
+
+}	
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16*9);
+	margin: 20px;
+	background-color: red;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
+h1 {
+	width :100%;
+	text-align: center;
+	font-size: 48px;
+}
+
+
+.photo1 {
+	background-image: url(../img/img 1.jpeg);
+}
+.photo2 {
+	background-image: url(../img/img 2.jpeg);
+}
+.photo3 {
+	background-image: url(../img/img 3.jpeg);
+}
+.photo4 {
+	background-image: url(../img/img 4.jpeg);
+}
+
